@@ -26,4 +26,4 @@ for i in range(1, n):
     factorial *= i
     result += (u_term / factorial) * diff[i][0]
 
-print("Interpolated value of y =", result)
+print("---Interpolated  value of y---- =", result)
