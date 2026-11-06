@@ -19,9 +19,6 @@ print(f"Forward Difference:  {df_forward:.6f} | Error: {abs(df_forward - exact):
 print(f"Backward Difference: {df_backward:.6f} | Error: {abs(df_backward - exact):.6f}")
 print(f"Central Difference:  {df_central:.6f} | Error: {abs(df_central - exact):.6f}")
 
-
-
-
 import matplotlib.pyplot as plt
 
 hs = np.logspace(-6, 0, 50)
