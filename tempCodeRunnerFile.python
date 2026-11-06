@@ -1,0 +1,20 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+data = {
+ "Subject": ["Maths", "Science", "English", "Computer"],
+ "Marks": [85, 90, 78, 95]
+}
+sns.barplot(x="Subject", y="Marks", data=data)
+plt.title("Subject-wise Marks")
+plt.show()
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+data = [
+ [80, 85, 90],
+ [75, 88, 92],
+ [90, 95, 85]
+]
+sns.heatmap(data, annot=True)
+plt.title("Marks Heatmap")
+plt.show()
